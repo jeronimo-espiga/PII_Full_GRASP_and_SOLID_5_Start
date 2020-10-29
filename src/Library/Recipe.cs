@@ -9,6 +9,10 @@ using System.Collections.Generic;
 
 namespace Full_GRASP_And_SOLID
 {
+    /*
+    Esta clase implementa la interfaz IRecipeContent, esta implementación fue realizada para aplicar el principio de inversión de dependencias,
+    por el cual esta clase y ConsolePrinter dependen de abstracciones y no de detalles como ocurria antes de la modificación.
+    */
     public class Recipe : IRecipeContent
     {
         // Cambiado por OCP
